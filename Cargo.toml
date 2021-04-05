@@ -3,6 +3,10 @@ name = "dede"
 version = "0.1.0"
 authors = ["sodo <djdisodo@gmail.com>"]
 edition = "2018"
+description = "macro: derive Deref and DerefMut"
+license-file = "./LICENSE"
+documentation = "https://docs.rs/dede"
+repository = "https://github.com/djdisdo/dede/"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

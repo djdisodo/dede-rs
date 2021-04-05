@@ -1,5 +1,6 @@
 # dede
 DErive DEref
+[![crates.io](https://img.shields.io/crates/v/dede.svg)](https://crates.io/crates/dede)
 
 there were already some macros for deriving `Deref`
 but wasn't flexible enough
