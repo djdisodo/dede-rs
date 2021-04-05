@@ -86,7 +86,7 @@ pub fn derive_deref(item: proc_macro::TokenStream) -> proc_macro::TokenStream {
 				self_ty: Box::new(syn::parse2(quote! { #ident<#type_args> }).unwrap()),
 				brace_token: syn::token::Brace { span },
 				items: vec![ImplItem::Verbatim(items)] 
-			}.to_token_stream().into();
+			}.to_token_stream().into()
 		} else {
 			proc_macro::TokenStream::new()
 		}
