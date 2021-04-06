@@ -6,7 +6,7 @@ edition = "2018"
 description = "macro: derive Deref and DerefMut"
 license-file = "./LICENSE"
 documentation = "https://docs.rs/dede"
-repository = "https://github.com/djdisdo/dede-rs"
+repository = "https://github.com/djdisodo/dede-rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
